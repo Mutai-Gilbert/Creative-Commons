@@ -64,8 +64,18 @@ header {
 
 .intro {
     position: absolute;
-    top: 30%;
+    top: 40%;
     left: 10%;
+}
+
+.bg-vector {
+    position: absolute;
+width: 605px;
+height: 605px;
+right: 0px;
+top: 0px;
+
+
 }
 
 .time-counter {
@@ -144,7 +154,7 @@ header {
 
 .lets-grow {
     position: absolute;
-    height: 1000px;
+    height: 900px;
     left: 0px;
     right: 0px;
     top: 928px;
@@ -157,14 +167,10 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0px;
+    padding: 16px 10px;
     gap: 8px;
-
     position: absolute;
-    width: 770px;
-    height: 116px;
-    left: calc(50% - 770px/2);
-    top: 50px;
+    width: 100vw;
 }
 .lets-grow-title h2 {
     font-style: normal;
@@ -193,7 +199,7 @@ header {
     position: absolute;
     width: 80vw;
     height: 598px;
-    left: 30px;
+    left: 10vw;
 }
 
 .inspiration {
@@ -282,6 +288,15 @@ color: #000000;
 }
 
 @media screen and (min-width: 768px) {
+    .bg-vector {
+        position: absolute;
+    width: 50vw;
+    height: 35vw;
+    right: 0px;
+    top: -25vw;
+    background: #FBD0F0;
+border-radius: 800px 0px 800px 800px;
+    }
     .menu-mobile {
         display: none;
     }
@@ -325,7 +340,7 @@ color: #000000;
     .lets-grow {
         position: absolute;
         top: 910px;
-        height: 100vh;
+        height: 70vh;
         background: #FBD0F0;
 
     }
@@ -349,18 +364,15 @@ color: #000000;
     }
 
     .content-grow {
-        position: absolute;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         height: 598px;
-        left: 135px;
-        right: 135px;
-        top: 204px;
     }
 
     .content-body {
         position: absolute;
-        left: 0px;
+        width: 50%;
+        left: 150px;
         top: 0px;
     }
 
@@ -388,13 +400,10 @@ color: #000000;
         align-items: center;
         padding: 40px;
         gap: 16px;
-
         position: absolute;
         width: 80px;
         height: 80px;
         left: 165px;
-
-        /* Mono / White */
         background: #FFFFFF;
         border-radius: 2400px 2400px 2400px 0px;
     }
@@ -439,6 +448,16 @@ color: #000000;
         top: 180px;
         background: #FFFFFF;
         border-radius: 0px 2400px 2400px 2400px;
+    }
+
+    .get-inspired {
+        position: absolute;
+        width: 50%;
+        left: 50%;
+        top: 5vw;
+    }
+    .get-inspired p {
+        width: 40vw;
     }
 
 
