@@ -22,7 +22,6 @@ body {
 /* Header */
 
 header {
-  /* background-color: #ec5242; */
   height: 80px;
   left: 0;
   right: 0;
@@ -30,14 +29,13 @@ header {
 }
 
 .welcome {
-  height: 100vh;
+  height: 70vh;
 }
 
 .menu-mobile {
   position: absolute;
   left: 10px;
   right: 0;
-  top: 10px;
 }
 
 .menu-desktop {
@@ -65,7 +63,7 @@ header {
 
 .intro {
   position: absolute;
-  top: 40%;
+  top: 20%;
   left: 10%;
 }
 
@@ -73,36 +71,52 @@ header {
   display: flex;
   flex-direction: row;
   padding: 0;
-  gap: 30px;
+  gap: 10px;
   width: 280px;
   height: 88px;
+  padding-bottom: 10px;
+  color: #ee2fbe;
 }
 
 .time-days {
-  width: 90px;
-  height: 68px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  gap: 4px;
+  width: 5px;
+  height: 5px;
+  color: #ee2fbe;
   border: 2px solid #ee2fbe;
   border-radius: 800px 800px 800px 0;
-  text-align: center;
-  color: #ee2fbe;
 }
 
 .time-hours {
-  width: 90px;
-  height: 68px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  gap: 4px;
+  width: 5px;
+  height: 5px;
+  color: #ee2fbe;
   border: 2px solid #ee2fbe;
   border-radius: 800px;
-  text-align: center;
-  color: #ee2fbe;
 }
 
 .time-minutes {
-  width: 90px;
-  height: 68px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  gap: 4px;
+  width: 5px;
+  height: 5px;
   border: 2px solid #ee2fbe;
   border-radius: 0 800px 800px 800px;
-  text-align: center;
-  color: #ee2fbe;
 }
 
 .intro h1 {
@@ -132,20 +146,13 @@ header {
   border-radius: 400px;
 }
 
-.banners {
-  position: absolute;
-  width: 50%;
-  height: 500px;
-  left: 20%;
-  top: 370px;
-  box-shadow: 0 16px 80px rgba(51, 51, 51, 0.12);
-}
-
 .lets-grow {
   position: absolute;
+  width: 100vw;
+  height: 100vh;
   left: 0;
   right: 0;
-  top: 928px;
+  top: 828px;
   gap: 12px;
   background: #fbd0f0;
 }
@@ -438,6 +445,12 @@ header {
 }
 
 @media screen and (min-width: 768px) {
+  .intro {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+  }
+
   .menu-mobile {
     display: none;
   }
@@ -480,7 +493,7 @@ header {
     position: absolute;
     width: 100vw;
     top: 910px;
-    height: 60vh;
+    height: 80vh;
     background: #fbd0f0;
   }
 
