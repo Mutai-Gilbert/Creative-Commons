@@ -445,8 +445,13 @@ header {
 }
 
 @media screen and (min-width: 768px) {
+  .welcome {
+    height: 100vh;
+  }
+
   .intro {
     position: absolute;
+    height: 40vh;
     top: 40%;
     left: 10%;
   }
@@ -481,19 +486,11 @@ header {
     border: 4px solid var(--light-red);
   }
 
-  .banners {
-    width: 90%;
-    height: 236px;
-    left: 1%;
-    top: 450px;
-    box-shadow: 0 16px 80px rgba(51, 51, 51, 0.12);
-  }
-
   .lets-grow {
     position: absolute;
     width: 100vw;
-    top: 910px;
-    height: 80vh;
+    top: 700px;
+    height: 70vh;
     background: #fbd0f0;
   }
 
@@ -585,10 +582,17 @@ header {
     width: 40vw;
   }
 
+  .speaker-section {
+    position: absolute;
+    top: 1290px;
+    height: 100vh;
+    width: 100vw;
+  }
+
   .speakers {
     position: absolute;
-    top: 1490px;
-    height: 100vh;
+    top: 1390px;
+    height: 80vh;
     width: 100vw;
   }
 
@@ -612,7 +616,7 @@ header {
 
   .speaker-1 {
     position: absolute;
-    left: 20vw;
+    left: 10vw;
     top: 221px;
   }
 
@@ -624,7 +628,7 @@ header {
 
   .speaker-3 {
     position: absolute;
-    left: 20vw;
+    left: 10vw;
     top: 521px;
   }
 
@@ -687,7 +691,7 @@ header {
 
   .sponsors {
     position: absolute;
-    top: 2390px;
+    top: 2290px;
     height: 30vw;
     padding: 24px 24px;
   }
