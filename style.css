@@ -343,9 +343,8 @@ span {
   }
 
   .speakers {
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 50% 50%;
   }
 
   .speaker-h2::after {
