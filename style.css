@@ -245,7 +245,7 @@ span {
   width: 100vw;
   height: 40vh;
   position: absolute;
-  background: #fbd0f0;
+  background: #272a31;
   padding-top: 24px;
 }
 
@@ -256,7 +256,7 @@ span {
   line-height: 60px;
   text-align: center;
   letter-spacing: 0.01em;
-  color: #5e0849;
+  color: #fff;
 }
 
 .sponsors-title p {
@@ -265,12 +265,16 @@ span {
 }
 
 .logos {
-  display: flex;
-  flex-wrap: wrap;
-  position: absolute;
-  top: 180px;
-  left: 30px;
+  display: grid;
+  grid-template-columns: 25% 25% 25%;
   gap: 24px;
+}
+
+/* Footer */
+.footer {
+  background: #d6d6d6;
+  color: #272a31;
+  padding: 20px;
 }
 
 @media screen and (min-width: 768px) {
