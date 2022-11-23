@@ -29,12 +29,12 @@ header {
 }
 
 .welcome {
-  height: 100vh;
+  height: 92vh;
 }
 
 .menu-icon {
   position: absolute;
-  left: 10px;
+  left: 0;
   right: 0;
   top: 0;
 }
@@ -48,8 +48,10 @@ header {
   padding: 40px 15px 15px 20px;
   list-style: none;
   flex-direction: column;
+  width: 100vw;
   height: 100vh;
-  gap: 10px;
+  gap: 40px;
+  position: absolute;
   left: 0;
   top: 0;
   backdrop-filter: blur(7px);
@@ -58,7 +60,7 @@ header {
 
 span {
   position: absolute;
-  right: 20px;
+  right: 50px;
   top: 20px;
   color: #fff;
   border: 2px solid #67798e;
@@ -150,7 +152,6 @@ span {
 }
 
 .programs {
-  list-style-type: none;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -185,6 +186,18 @@ span {
   border: 3px solid #fff;
   padding: 10px;
   background: rgba(255, 255, 255, 0.08);
+}
+
+.see-program {
+  width: 30vw;
+  height: 45px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 12px 35vw 12px 35vw;
+  color: #fff;
+  background-color: red;
 }
 
 .ourspeaker {
@@ -241,12 +254,18 @@ span {
   color: #4f4f4f;
 }
 
+.speaker-info h3 {
+  font-size: 1.5rem;
+}
+
+.speaker-info h6 {
+  color: #ec5242;
+}
+
 .sponsors {
   width: 100vw;
-  height: 40vh;
-  position: absolute;
+  height: 30vh;
   background: #272a31;
-  padding-top: 24px;
 }
 
 .sponsors-title h5 {
@@ -266,12 +285,14 @@ span {
 
 .logos {
   display: grid;
-  grid-template-columns: 25% 25% 25%;
+  grid-template-columns: 25% 25% 25% 25%;
   gap: 24px;
 }
 
 /* Footer */
 .footer {
+  display: flex;
+  justify-content: center;
   background: #d6d6d6;
   color: #272a31;
   padding: 20px;
@@ -328,7 +349,12 @@ span {
   }
 
   .lets-grow {
-    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    gap: 24px;
   }
 
   .programs {
@@ -336,6 +362,12 @@ span {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
+  }
+
+  .see-program {
+    width: 15vw;
+    height: 5vw;
   }
 
   .ourspeaker {
@@ -389,7 +421,7 @@ span {
   }
 
   .sponsors {
-    height: 30vw;
+    height: 20vh;
     padding: 24px 24px;
   }
 
@@ -401,14 +433,9 @@ span {
   }
 
   .logos {
-    display: flex;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
     text-align: center;
     align-items: center;
-    justify-content: space-around;
-    position: absolute;
-    width: 40vw;
-    top: 150px;
-    left: 30vw;
-    gap: 20px;
   }
 }
