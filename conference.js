@@ -19,3 +19,28 @@ mobileMenu.forEach((item) => {
   item.addEventListener('click', toggleMenu);
 });
 crossIcon.addEventListener('click', toggleMenu);
+
+// Creating the speakers section dynamically
+
+const speakers = [
+  {
+    id: 'speakers1',
+    title: 'Our Noteworthy SPEAKERS',
+    primaryText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada tristique justo quisultrices. Morbi gravida dignissim lectus, et semper nulla varius a',
+  },
+  {
+    id: 'speakers1',
+    title: 'Our Noteworthy SPEAKERS',
+    primaryText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada tristique justo quisultrices. Morbi gravida dignissim lectus, et semper nulla varius a',
+  },
+  {
+    id: 'speakers1',
+    title: 'Our Noteworthy SPEAKERS',
+    primaryText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada tristique justo quisultrices. Morbi gravida dignissim lectus, et semper nulla varius a',
+  },
+  {
+    id: 'speakers1',
+    title: 'Our Noteworthy SPEAKERS',
+    primaryText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada tristique justo quisultrices. Morbi gravida dignissim lectus, et semper nulla varius a',
+  },
+];
