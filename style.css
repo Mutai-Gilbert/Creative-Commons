@@ -385,8 +385,6 @@ span {
   }
 
   .sponsors {
-    position: absolute;
-    top: 2130px;
     height: 30vw;
     padding: 24px 24px;
   }
