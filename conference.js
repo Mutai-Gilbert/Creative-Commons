@@ -22,25 +22,50 @@ crossIcon.addEventListener('click', toggleMenu);
 
 // Creating the speakers section dynamically
 
-const speakers = [
+const Load = document.querySelector('.speakers');
+
+const speakersData = [
   {
-    id: 'speakers1',
-    title: 'Our Noteworthy SPEAKERS',
-    primaryText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada tristique justo quisultrices. Morbi gravida dignissim lectus, et semper nulla varius a',
+    id: 'speaker1',
+    profileImage: './img/speaker-1.png.jpg',
+    name: 'Mike Wyzkoski',
+    company: 'Co Founder Dream Team',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cumque error earum minus aliquam obcaecati',
   },
   {
-    id: 'speakers1',
-    title: 'Our Noteworthy SPEAKERS',
-    primaryText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada tristique justo quisultrices. Morbi gravida dignissim lectus, et semper nulla varius a',
+    id: 'speaker2',
+    profileImage: './img/speaker-2.png.jpg',
+    name: 'Zara Johnson',
+    company: 'CEO WaterBridges',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cumque error earum minus aliquam obcaecati',
   },
   {
-    id: 'speakers1',
-    title: 'Our Noteworthy SPEAKERS',
-    primaryText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada tristique justo quisultrices. Morbi gravida dignissim lectus, et semper nulla varius a',
+    id: 'speaker3',
+    profileImage: './img/speaker-3.png.jpg',
+    name: 'Henry Steve',
+    company: 'Founder & CEO Cinder Inc.',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cumque error earum minus aliquam obcaecati',
   },
   {
-    id: 'speakers1',
-    title: 'Our Noteworthy SPEAKERS',
-    primaryText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada tristique justo quisultrices. Morbi gravida dignissim lectus, et semper nulla varius a',
+    id: 'speaker4',
+    profileImage: './img/speaker-4.png.jpg',
+    name: 'Lara James',
+    company: 'Founder & CEO Fire Myth',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cumque error earum minus aliquam obcaecati',
   },
 ];
+
+speakersData.forEach((Project) => {
+  const content = `
+  <div class="${Project.id}">
+                <img src="${Project.profileImage}" alt="${Project.name}">
+                <div class="speaker-info">
+                    <h3>${Project.name}</h3>
+                    <h6>${Project.company}</h6>
+                    <p>${Project.description}</p>
+                </div>
+
+            </div>
+  `;
+  Load.innerHTML += content;
+});

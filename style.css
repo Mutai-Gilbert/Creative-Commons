@@ -30,6 +30,17 @@ header {
 
 .welcome {
   height: 92vh;
+  background: url('./img/bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #d6d6d6;
+  padding: 20px;
+  overflow: hidden;
 }
 
 .menu-icon {
