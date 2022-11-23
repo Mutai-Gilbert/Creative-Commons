@@ -153,7 +153,7 @@ header {
   height: 100vh;
   left: 0;
   right: 0;
-  top: 828px;
+  top: 708px;
   gap: 12px;
   background: #fbd0f0;
 }
@@ -192,8 +192,7 @@ header {
 .content-body {
   position: absolute;
   width: 80vw;
-  height: 598px;
-  left: 10vw;
+  left: 30px;
 }
 
 .inspiration {
@@ -207,7 +206,6 @@ header {
   width: 50px;
   height: 50px;
   left: 0;
-  top: calc(50% - 320px / 2 - 139px);
   background: #ee2fbe;
   box-shadow: 0 16px 40px rgba(238, 47, 190, 0.4);
   border-radius: 2400px 2400px 0 2400px;
@@ -287,8 +285,10 @@ header {
   display: flex;
   flex-direction: column;
   height: 190vh;
-  top: 1810px;
+  top: 1630px;
   padding-top: 24px;
+
+  /* background-color: #5e0849; */
 }
 
 .speakers-images {
@@ -410,9 +410,9 @@ header {
 
 .sponsors {
   width: 100vw;
-  height: 60vh;
+  height: 40vh;
   position: absolute;
-  top: 3350px;
+  top: 3200px;
   background: #fbd0f0;
   padding-top: 24px;
 }
@@ -498,9 +498,6 @@ header {
     padding: 0;
     gap: 8px;
     position: absolute;
-    width: 770px;
-    height: 116px;
-    left: calc(50% - 770px / 2);
     top: 50px;
   }
 
@@ -511,12 +508,14 @@ header {
   .content-grow {
     display: flex;
     flex-direction: row;
-    height: 598px;
+    width: 100vw;
   }
 
   .content-body {
     position: absolute;
     width: 50vw;
+    height: auto;
+    left: 15vw;
     top: 0;
   }
 
@@ -527,7 +526,6 @@ header {
     width: 80px;
     height: 80px;
     left: 0;
-    top: calc(50% - 320px / 2 - 139px);
     background: #ee2fbe;
     box-shadow: 0 16px 40px rgba(238, 47, 190, 0.4);
     border-radius: 2400px 2400px 0 2400px;
@@ -607,25 +605,25 @@ header {
   .speaker-1 {
     position: absolute;
     left: 10vw;
-    top: 221px;
+    top: 121px;
   }
 
   .speaker-2 {
     position: absolute;
     left: 50vw;
-    top: 221px;
+    top: 121px;
   }
 
   .speaker-3 {
     position: absolute;
     left: 10vw;
-    top: 521px;
+    top: 421px;
   }
 
   .speaker-4 {
     position: absolute;
     left: 50vw;
-    top: 521px;
+    top: 421px;
   }
 
   .speaker-box-1 {
@@ -681,7 +679,7 @@ header {
 
   .sponsors {
     position: absolute;
-    top: 2290px;
+    top: 2130px;
     height: 30vw;
     padding: 24px 24px;
   }
