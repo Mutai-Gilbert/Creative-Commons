@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,900;1,300&family=Poppins:wght@400;600;700;900&display=swap');
 
 @font-face {
   src: url('fonts/Cocogoose_trial.otf');
@@ -78,7 +78,8 @@ span {
   background: url('./img/bg.png');
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 100vh;
+  width: 100vw;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -164,6 +165,10 @@ address {
 }
 
 .see-past h3 {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
   color: #272a31;
   font-size: 1.5rem;
   font-weight: bold;
@@ -172,15 +177,32 @@ address {
 .bootcamp {
   gap: 24px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+}
+
+.logo-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 12px;
+  width: 100vw;
 }
 
 .img1,
 .img2 {
   text-align: center;
-  width: 35vw;
+  width: 50vw;
   height: 15vh;
+  background-color: rgba(216, 34, 34, 0.8);
+}
+
+.logo-section h4 {
+  font-size: 1.3rem;
+  color: #fff;
+  text-align: center;
 }
 
 /* Footer */
@@ -244,13 +266,11 @@ address {
     gap: 24px;
   }
 
-  .img1 {
-    width: 35vw;
-    height: 25vh;
-  }
-
+  .img1,
   .img2 {
+    text-align: center;
     width: 35vw;
-    height: 25vh;
+    height: 15vh;
+    background-color: rgba(216, 34, 34, 0.8);
   }
 }

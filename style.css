@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,900;1,300&family=Poppins:wght@400;600;700;900&display=swap');
 
 @font-face {
   src: url('fonts/Cocogoose_trial.otf');
@@ -356,7 +356,7 @@ span {
     list-style-type: none;
     display: flex;
     justify-content: space-between;
-    width: 30%;
+    width: 20%;
     align-items: center;
   }
 
@@ -432,32 +432,15 @@ span {
     width: 7vw;
   }
 
-  .speaker1 {
-    display: flex;
-    flex-direction: row;
-    gap: 12px;
-    width: 47vw;
-  }
-
-  .speaker2 {
-    display: flex;
-    flex-direction: row;
-    gap: 12px;
-    width: 47vw;
-  }
-
-  .speaker3 {
-    display: flex;
-    flex-direction: row;
-    gap: 12px;
-    width: 47vw;
-  }
-
+  .speaker1,
+  .speaker2,
+  .speaker3,
   .speaker4 {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
     gap: 12px;
-    width: 47vw;
   }
 
   .sponsors {
