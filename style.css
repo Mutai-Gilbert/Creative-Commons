@@ -219,7 +219,15 @@ span {
   gap: 24px;
 }
 
+.speaker-h2 {
+  display: flex;
+  flex-direction: column;
+}
+
 .ourspeaker h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: #272a31;
   font-size: 1.5rem;
   font-weight: bold;
@@ -228,10 +236,11 @@ span {
 .speaker-h2::after {
   content: '';
   border-bottom: 5px solid red;
-  display: block;
+  display: flex;
+  justify-content: center;
   padding-bottom: 7px;
   margin: 0 auto;
-  width: 70vw;
+  width: 30vw;
 }
 
 .speakers {

@@ -53,7 +53,7 @@ const speakersData = [
   },
 ];
 
-// load the data into the speakers section 
+// load the data into the speakers section
 const Load = document.querySelector('.speakers');
 // iterate through the object
 speakersData.forEach((Project) => {
