@@ -22,8 +22,6 @@ crossIcon.addEventListener('click', toggleMenu);
 
 // Creating the speakers section dynamically
 
-const Load = document.querySelector('.speakers');
-
 const speakersData = [
   {
     id: 'speaker1',
@@ -55,6 +53,9 @@ const speakersData = [
   },
 ];
 
+// load the data into the speakers section 
+const Load = document.querySelector('.speakers');
+// iterate through the object
 speakersData.forEach((Project) => {
   const content = `
   <div class="${Project.id}">
