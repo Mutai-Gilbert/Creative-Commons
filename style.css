@@ -335,14 +335,10 @@ span {
   }
 
   .menu-desktop {
-    position: absolute;
     height: 10vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    left: 20px;
-    right: 20px;
-    top: 20px;
   }
 
   .menu-ul {
