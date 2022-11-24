@@ -37,29 +37,30 @@ header {
 }
 
 .nav-menu {
-  font-size: 1.5rem;
+  position: absolute;
   display: none;
-  align-items: center;
-  padding: 40px 15px 15px 20px;
-  list-style: none;
   flex-direction: column;
+  align-items: center;
+  list-style: none;
+  font-size: 1.5rem;
+  padding: 40px 15px 15px 20px;
   width: 100vw;
   height: 100vh;
-  gap: 40px;
-  position: absolute;
+  gap: 30px;
   left: 0;
   top: 0;
-  color: #fff;
+  opacity: 1;
+  z-index: 1;
   backdrop-filter: blur(7px);
   -webkit-backdrop-filter: blur(5px);
-  background: #fbd0f0;
+  color: gray;
 }
 
 span {
   position: absolute;
   right: 50px;
   top: 20px;
-  color: #fff;
+  color: red;
   cursor: pointer;
 }
 
@@ -191,10 +192,18 @@ address {
 
 .img1,
 .img2 {
-  text-align: center;
-  width: 50vw;
-  height: 15vh;
-  background-color: rgba(216, 34, 34, 0.8);
+  background: url(./img/notice-me.jpg);
+  background-color: #ec4542;
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 250px;
+  margin-bottom: 2em;
 }
 
 .logo-section h4 {
@@ -266,9 +275,23 @@ address {
 
   .img1,
   .img2 {
-    text-align: center;
-    width: 35vw;
-    height: 15vh;
-    background-color: rgba(216, 34, 34, 0.8);
+    background: url(./img/notice-me.jpg);
+    background-color: #ec4542;
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 250px;
+    margin-bottom: 2em;
+  }
+
+  .footer-block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
   }
 }

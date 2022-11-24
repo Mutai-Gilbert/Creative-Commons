@@ -49,29 +49,30 @@ header {
 }
 
 .nav-menu {
-  font-size: 1.5rem;
+  position: absolute;
   display: none;
-  align-items: center;
-  padding: 40px 15px 15px 20px;
-  list-style: none;
   flex-direction: column;
+  align-items: center;
+  list-style: none;
+  font-size: 1.5rem;
+  padding: 40px 15px 15px 20px;
   width: 100vw;
   height: 100vh;
   gap: 30px;
-  position: absolute;
   left: 0;
   top: 0;
-  color: #fff;
+  opacity: 1;
+  z-index: 1;
   backdrop-filter: blur(7px);
   -webkit-backdrop-filter: blur(5px);
-  background: #fbd0f0;
+  color: gray;
 }
 
 span {
   position: absolute;
   right: 50px;
   top: 20px;
-  color: #fff;
+  color: red;
   border: 2px solid #67798e;
   cursor: pointer;
 }
