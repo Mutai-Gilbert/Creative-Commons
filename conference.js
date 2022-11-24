@@ -59,7 +59,7 @@ const Load = document.querySelector('.speakers');
 speakersData.forEach((Project) => {
   const content = `
   <div class="${Project.id}">
-                <img src="${Project.profileImage}" alt="${Project.name}">
+                <img src="${Project.profileImage}" alt='${Project.name}'>
                 <div class="speaker-info">
                     <h3>${Project.name}</h3>
                     <h6>${Project.company}</h6>

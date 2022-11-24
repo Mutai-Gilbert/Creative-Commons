@@ -5,6 +5,18 @@ My project was to replicate the Creative Commons 2015 Global Summit Conference s
 I was tasked to build the a minimum of 3 pages at two different screen sizes :
 - Mobile up to 768px
 - Desktop from 768px and bigger.
+# Code With Raihan - Full stack Bootcamp
+
+> This is A simple but effective and responsive (mobile first) Microverse Capstone Project 1.
+>
+> The theme about this project is a online full stack webdevelopment bootcamp.
+>
+
+    ### Live Preview of my project in a desktop browser.
+[Video Explanation Link](https://www.loom.com/share/25dda83815c94708ad7dadbc49999bf8)
+
+    ### Live Preview of my project in a mobile browser.
+[Video Explanation Link](https://www.loom.com/share/33e5a6f1e8c9448186b673fbb237a0dd)
 
 
 ## Screenshots for various screen sizes
@@ -12,17 +24,18 @@ I was tasked to build the a minimum of 3 pages at two different screen sizes :
 
 ## Built With
 
-* Html
-* Css
-* Bootstrap
-
+- Html
+- CSS
+- Javascript
+- Technologies used
+  I use nodejs for linting the project and github action for automative linter check.
 ## Live Demo Link
 
-[Portfolio Link](https://mutai-gilbert.github.io/Responsive-Personal-Porfolio/)
+[Portfolio Link](https://mutai-gilbert.github.io/Creative-Commons-Landing-Page/)
 
 ## Video Link
 
-[Video Explanation Link]()
+[Video Explanation Link](https://www.loom.com/share/25dda83815c94708ad7dadbc49999bf8)
 
 
 ## Author
