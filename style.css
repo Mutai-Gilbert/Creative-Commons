@@ -1,12 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
-:root {
-  --dark: #272a31;
-  --light-red: #ec5242;
-  --light: #d3d3d3;
-  --ff-1: 'Lato', sans-serif;
-}
-
 @font-face {
   src: url('fonts/Cocogoose_trial.otf');
   font-family: Coco;
@@ -50,22 +43,27 @@ header {
   top: 0;
 }
 
-.menu-desktop {
+.menu-desktop,
+.menu-desktop-top {
   display: none;
 }
 
 .nav-menu {
+  font-size: 1.5rem;
   display: none;
+  align-items: center;
   padding: 40px 15px 15px 20px;
   list-style: none;
   flex-direction: column;
   width: 100vw;
   height: 100vh;
-  gap: 40px;
+  gap: 30px;
   position: absolute;
   left: 0;
   top: 0;
+  color: #fff;
   backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(5px);
   background: #fbd0f0;
 }
 
@@ -116,22 +114,6 @@ span {
   padding: 10px 12px;
   background: rgba(201, 201, 201, 0.5);
   border-radius: 10px;
-}
-
-.button {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  width: 50%;
-  height: 46px;
-  background: #ec5242;
-  color: #fff;
-  font-size: 1.2rem;
-  font-weight: bold;
-  box-shadow: 0 16px 40px rgba(238, 47, 190, 0.4);
-  border-radius: 5px;
 }
 
 .lets-grow {
@@ -193,22 +175,22 @@ span {
   align-items: center;
   gap: 12px;
   width: 152px;
-  height: 200px;
+  height: 220px;
   border: 3px solid #fff;
   padding: 10px;
   background: rgba(255, 255, 255, 0.08);
 }
 
 .see-program {
-  width: 30vw;
-  height: 45px;
   display: flex;
-  flex-direction: column;
+  text-align: center;
   align-items: center;
   justify-content: center;
-  margin: 12px 35vw 12px 35vw;
+}
+
+.see-program a {
   color: #fff;
-  background-color: red;
+  padding: 24px;
 }
 
 .ourspeaker {
@@ -222,6 +204,13 @@ span {
 .speaker-h2 {
   display: flex;
   flex-direction: column;
+}
+
+.speaker-info {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 12px;
 }
 
 .ourspeaker h2 {
@@ -243,6 +232,14 @@ span {
   width: 30vw;
 }
 
+.sponsors-title {
+  content: '';
+  border-bottom: 5px solid red;
+  display: block;
+  margin: 0 auto;
+  width: 30vw;
+}
+
 .speakers {
   list-style-type: none;
   display: flex;
@@ -251,7 +248,6 @@ span {
   text-align: center;
   align-items: center;
   padding: 12px;
-  gap: 24px;
 }
 
 .speakers h2 {
@@ -305,7 +301,7 @@ span {
 
 .logos {
   display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-columns: 33% 33% 33%;
   gap: 24px;
 }
 
@@ -330,18 +326,42 @@ span {
     left: 10%;
   }
 
+  .intro h3 {
+    font-size: 2.5rem;
+  }
+
+  .intro h1 {
+    font-size: 4rem;
+  }
+
   .menu-icon {
     display: none;
   }
 
   .menu-desktop {
-    position: absolute;
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    left: 20px;
-    right: 20px;
-    top: 20px;
+  }
+
+  .menu-desktop-top {
+    display: flex;
+    justify-content: flex-end;
+    background: #272a31;
+    color: #fff;
+  }
+
+  .class-menu-desktop-top {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    align-items: center;
+  }
+
+  .menu-desktop-top a {
+    color: #fff;
   }
 
   .menu-ul {
@@ -372,7 +392,6 @@ span {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 70vh;
     gap: 24px;
   }
 
@@ -382,11 +401,6 @@ span {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-  }
-
-  .see-program {
-    width: 15vw;
-    height: 5vw;
   }
 
   .ourspeaker {
@@ -406,9 +420,16 @@ span {
     content: '';
     border-bottom: 5px solid red;
     display: block;
-    padding-bottom: 7px;
     margin: 0 auto;
-    width: 20vw;
+    width: 10vw;
+  }
+
+  .sponsors-title {
+    content: '';
+    border-bottom: 5px solid red;
+    display: block;
+    margin: 0 auto;
+    width: 7vw;
   }
 
   .speaker1 {
@@ -440,7 +461,7 @@ span {
   }
 
   .sponsors {
-    height: 20vh;
+    height: 30vh;
     padding: 24px 24px;
   }
 
@@ -453,7 +474,7 @@ span {
 
   .logos {
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-columns: 20% 20% 20% 20% 20%;
     text-align: center;
     align-items: center;
   }
