@@ -1,11 +1,11 @@
-# HTML/CSS & JavaScript capstone project - Conference page
+# HTML/CSS & JavaScript capstone project 
 The aim of this project is putting the student in a real life situation where they are given a real-world-like project with specifications and a time duration to convert those specifications into a functional product.
 <br>
 My project was to replicate the Creative Commons 2015 Global Summit Conference site. 
 I was tasked to build the a minimum of 3 pages at two different screen sizes :
 - Mobile up to 768px
 - Desktop from 768px and bigger.
-# Code With Raihan - Full stack Bootcamp
+# Code With Mutai - Full stack Bootcamp
 
 > This is A simple but effective and responsive (mobile first) Microverse Capstone Project 1.
 >
