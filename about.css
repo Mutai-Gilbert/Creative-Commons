@@ -145,6 +145,14 @@ address {
   font-weight: bold;
 }
 
+.about-our-logo p {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 95vw;
+}
+
 .global-logo {
   width: 50vw;
   height: 20vw;
@@ -178,6 +186,7 @@ address {
   text-align: center;
   align-items: center;
   justify-content: center;
+  width: 95vw;
 }
 
 .bootcamp {
@@ -226,6 +235,10 @@ address {
   background: #272a31;
   color: #d6d6d6;
   padding: 20px;
+}
+
+.footer-block img {
+  background-color: #fff;
 }
 
 @media screen and (min-width: 768px) {
@@ -300,9 +313,5 @@ address {
     display: flex;
     flex-direction: row;
     align-items: center;
-  }
-
-  .footer-block img {
-    background-color: #fff;
   }
 }
