@@ -131,12 +131,11 @@ address {
 
 /*  About -logo */
 .about-our-logo {
+  gap: 24px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 14px;
-  gap: 24px;
 }
 
 .about-our-logo h2 {
@@ -150,7 +149,6 @@ address {
   text-align: center;
   align-items: center;
   justify-content: center;
-  width: 95vw;
 }
 
 .global-logo {

@@ -138,7 +138,7 @@ span {
 
 .lets-grow-title::after {
   content: '';
-  border-bottom: 5px solid red;
+  border-bottom: 2px solid red;
   display: block;
   padding-bottom: 7px;
   margin: 0 auto;
@@ -149,7 +149,7 @@ span {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 24px;
+  gap: 5px;
 }
 
 .programs h4 {
@@ -177,9 +177,13 @@ span {
   gap: 12px;
   width: 152px;
   height: 220px;
-  border: 3px solid #fff;
   padding: 10px;
   background: rgba(255, 255, 255, 0.08);
+}
+
+.item:hover {
+  transform: translateY(-3px);
+  border: 3px solid #fff;
 }
 
 .see-program {
@@ -403,11 +407,11 @@ span {
   }
 
   .programs {
-    list-style-type: none;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    gap: 5px;
+    max-width: 800px;
+    margin: 0 auto;
   }
 
   .see-program a {
@@ -433,7 +437,7 @@ span {
 
   .speaker-h2::after {
     content: '';
-    border-bottom: 5px solid red;
+    border-bottom: 2px solid red;
     display: block;
     margin: 0 auto;
     width: 10vw;
@@ -441,7 +445,7 @@ span {
 
   .sponsors-title {
     content: '';
-    border-bottom: 5px solid red;
+    border-bottom: 2px solid red;
     display: block;
     margin: 0 auto;
     width: 7vw;

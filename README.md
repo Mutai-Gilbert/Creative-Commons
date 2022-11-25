@@ -1,42 +1,85 @@
-# HTML/CSS & JavaScript capstone project 
-The aim of this project is putting the student in a real life situation where they are given a real-world-like project with specifications and a time duration to convert those specifications into a functional product.
-<br>
-My project was to replicate the Creative Commons 2015 Global Summit Conference site. 
-I was tasked to build the a minimum of 3 pages at two different screen sizes :
-- Mobile up to 768px
-- Desktop from 768px and bigger.
-# Code With Mutai - Full stack Bootcamp
+ <a name="readme-top"></a>
 
-> This is A simple but effective and responsive (mobile first) Microverse Capstone Project 1.
->
-> The theme about this project is a online full stack webdevelopment bootcamp.
->
+<div align="center">
 
-    ### Live Preview of my project in a desktop browser.
-[Video Explanation Link](https://www.loom.com/share/25dda83815c94708ad7dadbc49999bf8)
+  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <br/>
 
-    ### Live Preview of my project in a mobile browser.
-[Video Explanation Link](https://www.loom.com/share/33e5a6f1e8c9448186b673fbb237a0dd)
+  <h3><b>Microverse README Template</b></h3>
+
+</div>
+
+# 📗 Table of Contents
+
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+
+# 📖 Capstone Project Module 1 <a name="about-project"></a>
 
 
-## Screenshots for various screen sizes
+In this **Capstone Project** i have developed two web pages for a Startup Business 2022 conference i.e. "Home Page" and the "About Page". There is a mobile version and a desktop version for each page. 
+
+## 🛠 The project is built using Html, CSS and JavaScript. <a name="built-with"></a>
+
+### Key Features <a name="key-features"></a>
+
+> The webiste is responsive and caters to both the mobile and the desktop view.
+
+- **Responsive**
+- **Moble version**
+- **Desktiop Version**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+> Here is link for a live demo of my project.
+
+- [Live Demo Link](https://mutai-gilbert.github.io/Creative-Commons-Landing-Page/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+> Describe how a new developer could make use of your project.
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+Git should be installed on your local machine to clone it. Otherwise you can download the zip file.
+
+In order to run this project you need to clone or download the project to your local machine.
+
+Command : git clone https://github.com/Mutai-Gilbert/Creative-Commons-Landing-Page.git
+
+### Setup
+
+Clone this repository to your desired folder:
 
 
-## Built With
+Example commands:
 
-- Html
-- CSS
-- Javascript
-- Technologies used
-  I use nodejs for linting the project and github action for automative linter check.
-## Live Demo Link
+```sh
+  cd my-folder
+  https://github.com/Mutai-Gilbert/Creative-Commons-Landing-Page.git
+```
 
-[Portfolio Link](https://mutai-gilbert.github.io/Creative-Commons-Landing-Page/)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Video Link
+## 👥 Authors <a name="authors"></a>
 
-[Video Explanation Link](https://www.loom.com/share/25dda83815c94708ad7dadbc49999bf8)
-
+> This project has been made by Kashif Saleem Ghuman.
 
 ## Author
 👤 **Gilbert Mutai**
@@ -45,20 +88,24 @@ I was tasked to build the a minimum of 3 pages at two different screen sizes :
 - Twitter: [@twitterhandle](https://twitter.com/@nerdmutai)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/mutai-gilbert-2a5a42137/)
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🤝 Contributing
+## 🤝 Contributing <a name="contributing"></a>
 
-Contributions, issues and feature requests are welcome!
+Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
-## Show your support
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Give a ⭐️ if you like this project!
+## ⭐️ Show your support <a name="support"></a>
 
-## Acknowledgements
-  * [Microverse](https://www.microverse.org/)
-  * The original designer of the UI for this website is [Cindy Shin](https://www.behance.net/adagio07)
+If you like this project please do follow my Github, Linkedin and twitter. Please do endorse my project of you like it.
 
-## License
- Distributed under the [Creative Commons License](https://creativecommons.org/licenses/by-nc/4.0/)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to give credit to Creative Commons (https://creativecommons.org/licenses/by-nc/4.0/) from which my design is inspired. Moreover i would to accredit stackoverflow, Google and Youtube which i used as resources to assisit me in building up the project.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
