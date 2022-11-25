@@ -1,0 +1,31 @@
+{
+  "name": "creative-commons-landing-page",
+  "version": "1.0.0",
+  "description": "The aim of this project is putting the student in a real life situation where they are given a real-world-like project with specifications and a time duration to convert those specifications into a functional product. <br> My project was to replicate the Creative Commons 2015 Global Summit Conference site.  I was tasked to build the a minimum of 3 pages at two different screen sizes : - Mobile up to 768px - Desktop from 768px and bigger.",
+  "main": "conference.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mutai-Gilbert/Creative-Commons-Landing-Page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mutai-Gilbert/Creative-Commons-Landing-Page/issues"
+  },
+  "homepage": "https://github.com/Mutai-Gilbert/Creative-Commons-Landing-Page#readme",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.26.0",
+    "hint": "^7.1.3",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0"
+  }
+}
