@@ -173,6 +173,13 @@ address {
   font-weight: bold;
 }
 
+.see-past p {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
 .bootcamp {
   gap: 24px;
   display: flex;
@@ -293,5 +300,9 @@ address {
     display: flex;
     flex-direction: row;
     align-items: center;
+  }
+
+  .footer-block img {
+    background-color: #fff;
   }
 }

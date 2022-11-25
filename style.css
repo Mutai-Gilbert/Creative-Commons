@@ -190,8 +190,15 @@ span {
 }
 
 .see-program a {
+  border: 1px solid #ec5242;
+  background-color: #ec5242;
   color: #fff;
-  padding: 24px;
+  padding: 20px;
+  margin: 35px;
+}
+
+.see-program:hover {
+  color: #ec5242;
 }
 
 .ourspeaker {
@@ -393,7 +400,6 @@ span {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 24px;
   }
 
   .programs {
@@ -402,6 +408,14 @@ span {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+  }
+
+  .see-program a {
+    border: none;
+    background-color: initial;
+    color: #fff;
+    padding: 20px;
+    margin: 35px;
   }
 
   .ourspeaker {

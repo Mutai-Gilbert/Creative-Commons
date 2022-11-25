@@ -51,6 +51,20 @@ const speakersData = [
     company: 'Founder & CEO Fire Myth',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cumque error earum minus aliquam obcaecati',
   },
+  {
+    id: 'speaker5',
+    profileImage: './img/speaker-5.png.jpg',
+    name: 'Henry Steve',
+    company: 'Founder & CEO Cinder Inc.',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cumque error earum minus aliquam obcaecati',
+  },
+  {
+    id: 'speaker6',
+    profileImage: './img/speaker-6.png.jpg',
+    name: 'Lara James',
+    company: 'Founder & CEO Fire Myth',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cumque error earum minus aliquam obcaecati',
+  },
 ];
 
 // load the data into the speakers section
@@ -58,12 +72,14 @@ const Load = document.querySelector('.speakers');
 // iterate through the object
 speakersData.forEach((Project) => {
   const content = `
-  <div class="${Project.id}">
-                <img src="${Project.profileImage}" alt='${Project.name}'>
+  <div class="${Project.id}" id="">
+                <div class="all-tiles">
+                    <img src="${Project.profileImage}" alt="${Project.name}" width="120vw">
+                </div>
                 <div class="speaker-info">
                     <h3>${Project.name}</h3>
                     <h6>${Project.company}</h6>
-                    <p>${Project.description}</p>
+                    <p>${Project.description} </p>
                 </div>
 
             </div>
