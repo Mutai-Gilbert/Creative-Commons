@@ -20,7 +20,7 @@
   - [Prerequisites](#prerequisites)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
+- q[🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
 
@@ -46,6 +46,7 @@ In this **Capstone Project** i have developed two web pages for a Startup Busine
 > Here is link for a live demo of my project.
 
 - [Live Demo Link](https://mutai-gilbert.github.io/Creative-Commons-Landing-Page/)
+- [Live Loom Link](https://www.loom.com/share/25dda83815c94708ad7dadbc49999bf8)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
