@@ -78,10 +78,6 @@ Example commands:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 👥 Authors <a name="authors"></a>
-
-> This project has been made by Kashif Saleem Ghuman.
-
 ## Author
 👤 **Gilbert Mutai**
 
