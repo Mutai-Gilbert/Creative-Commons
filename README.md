@@ -66,7 +66,7 @@ Command : git clone https://github.com/Mutai-Gilbert/Creative-Commons-Landing-Pa
 
 ### Setup
 
-Clone this repository to your desired folder:
+Clone this repository to your desired folder::
 
 
 Example commands:
