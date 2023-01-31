@@ -29,7 +29,7 @@
 
 In this **Capstone Project** i have developed two web pages for a Startup Business 2022 conference i.e. "Home Page" and the "About Page". There is a mobile version and a desktop version for each page. 
 
-## 🛠 The project is built using Html, CSS and JavaScript. <a name="built-with"></a>
+## 🛠 The project is built using Html, CSS,Bootstrap and JavaScript. <a name="built-with"></a>
 
 ### Key Features <a name="key-features"></a>
 
