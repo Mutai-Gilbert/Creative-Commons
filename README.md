@@ -78,7 +78,7 @@ Example commands:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Author
+## Authors
 👤 **Gilbert Mutai**
 
 - GitHub: [@githubhandle](https://github.com/Mutai-Gilbert)
