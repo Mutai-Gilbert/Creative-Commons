@@ -24,7 +24,7 @@
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
 
-# 📖 Capstone Project Module 1 <a name="about-project"></a>
+# 📖 Capstone Project Module 1 <a name="about-the-project"></a>
 
 
 In this **Capstone Project** i have developed two web pages for a Startup Business 2022 conference i.e. "Home Page" and the "About Page". There is a mobile version and a desktop version for each page. 
