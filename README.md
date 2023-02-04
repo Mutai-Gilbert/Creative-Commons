@@ -69,7 +69,7 @@ Command : git clone https://github.com/Mutai-Gilbert/Creative-Commons-Landing-Pa
 Clone this repository to your desired folder::
 
 
-Example commands:
+Example of the  commands:
 
 ```sh
   cd my-folder
