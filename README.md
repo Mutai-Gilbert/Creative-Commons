@@ -15,13 +15,14 @@
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
 
-# 📖 Capstone Project Module 1 <a name="about-the-project"></a>
-
 
 In this **Capstone Project** I have developed two web pages for a Startup Business 2022 conference i.e. "Home Page" and the "About Page". There is a mobile version and a desktop version for each page. 
 
-## 🛠 The project is built using Html, CSS,Bootstrap and JavaScript. <a name="built-with"></a>
-
+## 🛠Built using: <a name="built-with"></a>
+- Html
+-  CSS3
+-  Bootstrap
+-  JavaScript
 ### Key Features <a name="key-features"></a>
 
 > The webiste is responsive and caters to both the mobile and the desktop view.
